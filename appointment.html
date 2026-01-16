@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Appointment | Grace & Power Ministry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <h2>Grace & Power Ministry</h2>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="give.html">Give</a>
+      <a href="appointment.html" class="active">Book Appointment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Book an Appointment</h1>
+      <p>Request prayer or counselling with the pastor.</p>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT FORM -->
+  <section class="contact">
+    <div class="contact-form">
+      <h3>Appointment Request</h3>
+
+      <form action="mailto:graceandpowerministry@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="tel" name="Phone" placeholder="Phone Number" required>
+        <input type="email" name="Email" placeholder="Email (optional)">
+        
+        <select name="Reason" required>
+          <option value="">Reason for Appointment</option>
+          <option>Prayer</option>
+          <option>Counselling</option>
+        </select>
+
+        <input type="date" name="Preferred Date" required>
+
+        <textarea name="Message" rows="5" placeholder="Additional Message"></textarea>
+
+        <button type="submit">Send Request (Email)</button>
+      </form>
+
+      <br>
+
+      <!-- WHATSAPP -->
+      <a class="give-btn"
+         href="https://wa.me/233XXXXXXXXX"
+         target="_blank">
+        Send via WhatsApp
+      </a>
+
+    </div>
+  </section>
+<footer class="footer">
+  <div class="footer-content">
+
+    <div class="footer-section">
+      <h3>Grace & Power Ministry</h3>
+      <p>Raising lives through the Word, prayer, and power of God.</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="give.html">Give</a></li>
+        <li><a href="appointment.html">Appointment</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>📍 Ghana</p>
+      <p>📞 +233 XXX XXX XXX</p>
+      <p>✉️ info@graceandpower.org</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Grace & Power Ministry. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
